@@ -2,8 +2,11 @@
 
 Java学习笔记
 
-day01 ~ day12 为 JavaEE就业班面向对象IO阶段
-day13 ~ day23 为 JavaEE就业班多线程和数据库
+# day01 ~ day12 为 JavaEE就业班面向对象IO阶段
+
+# day13 ~ day23 为 JavaEE就业班多线程和数据库
+
+# javaEE就业班前端开发阶段
 
 # day01 第一天
 

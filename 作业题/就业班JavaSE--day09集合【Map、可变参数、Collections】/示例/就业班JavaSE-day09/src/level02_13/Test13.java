@@ -36,12 +36,10 @@ public class Test13 {
 		for (String key : keySet) {
 			// 6.根据key获取到对应的value
 			Integer age = hm.get(key);
-			if(age  < 30){
-				// 7.将key和value按格式拼接好写入到person.txt文件中
-				bw.write(key + "=" + age);
-				bw.newLine();
-			}
-		
+			
+			// 7.将key和value按格式拼接好写入到person.txt文件中
+			bw.write(key + "=" + age);
+			bw.newLine();
 		}
 		
 		// 8.关闭流

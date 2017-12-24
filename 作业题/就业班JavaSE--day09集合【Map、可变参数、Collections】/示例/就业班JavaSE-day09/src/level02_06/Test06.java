@@ -40,22 +40,16 @@ public class Test06 {
 			}
 		}
 		
-		
-		
-		Set<Entry<Character,Integer>> entrySet = map.entrySet();
-		for (Entry<Character, Integer> entry : entrySet) {
-			System.out.println(entry);
-		}
 		// 9.创建字符串缓冲区对象
-//		StringBuilder sb = new StringBuilder();
-//		
-//		// 10.按题目要求拼接字符串
-//		for(Entry<Character,Integer> entry : map.entrySet()) {
-//			sb.append(entry.getKey() + "(" + entry.getValue() + ")");
-//		}
-//		
-//		// 11.输出结果
-//		System.out.println(sb);
+		StringBuilder sb = new StringBuilder();
+		
+		// 10.按题目要求拼接字符串
+		for(Entry<Character,Integer> entry : map.entrySet()) {
+			sb.append(entry.getKey() + "(" + entry.getValue() + ")");
+		}
+		
+		// 11.输出结果
+		System.out.println(sb);
 	}
 
 }

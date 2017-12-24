@@ -43,7 +43,7 @@ public class Test07 {
 	}
 
 	// 1.定义countingKey(HashMap<String, Integer> map, String key)方法.用于统计key出现的次数.调用一次,让key所对应的次数+1.
-	public static void countingKey(HashMap<String, Integer> map, String key) {
+	private static void countingKey(HashMap<String, Integer> map, String key) {
 		// 2.在countingKey方法中.使用get方法从map中取出key的值
 		Integer num = map.get(key);
 		// 3.如果为空,说明key第一次出现

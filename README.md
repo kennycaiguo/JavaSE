@@ -2,6 +2,9 @@
 
 Java学习笔记
 
+day01 ~ day12 为 JavaEE就业班面向对象IO阶段
+day13 ~ day23 为 JavaEE就业班多线程和数据库
+
 # day01 第一天
 
 （面向对象【阶段一知识回顾_继承】）
